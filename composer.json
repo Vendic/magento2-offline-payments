@@ -1,9 +1,8 @@
 {
-    "name": "vendic/offlinepayments",
-    "description": "",
+    "name": "vendic/magento2-offlinepayments",
+    "description": "Add two offline payment methods (Cash and Prepaid) to Magento 2",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
-        
+        "php": "~7.0.0|~7.1.0|~7.2.0",
         "magento/magento-composer-installer": "*"
     },
     "suggest": {
@@ -21,13 +20,5 @@
         "psr-4": {
             "Vendic\\OfflinePayments\\": ""
         }
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Vendic/OfflinePayments"
-            ]
-        ]
     }
 }
