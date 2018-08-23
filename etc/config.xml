@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <cash>
+                <active>1</active>
+                <model>Vendic\OfflinePayments\Model\Gateways\Cash</model>
+                <order_status>pending</order_status>
+                <title>Cash</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </cash>
+            <prepaid>
+                <active>1</active>
+                <model>Vendic\OfflinePayments\Model\Gateways\Prepaid</model>
+                <order_status>pending</order_status>
+                <title>Prepaid</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </prepaid>
+        </payment>
+    </default>
+</config>
