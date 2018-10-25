@@ -13,5 +13,8 @@
         <method name="prepaid">
             <allow_multiple_address>1</allow_multiple_address>
         </method>
+        <method name="custom_payment">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
     </methods>
 </payment>
