@@ -32,6 +32,14 @@
                                                                         </item>
                                                                     </item>
                                                                 </item>
+                                                                <item name="custom_payment" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Vendic_OfflinePayments/js/view/payment/custom_payment</item>
+                                                                    <item name="methods" xsi:type="array">
+                                                                        <item name="custom_payment" xsi:type="array">
+                                                                            <item name="isBillingAddressRequired"  xsi:type="boolean">true</item>
+                                                                        </item>
+                                                                    </item>
+                                                                </item>
                                                             </item>
                                                         </item>
                                                     </item>

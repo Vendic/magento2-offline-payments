@@ -37,6 +37,23 @@
                     <source_model>Vendic\OfflinePayments\Model\Config\Source\StoreViews</source_model>
                 </field>
             </group>
+            <group id="custom" translate="label" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Custom Payment Option</label>
+                <field id="title" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Title</label>
+                </field>
+                <field id="active" translate="label comment" sortOrder="2" type="select" showInDefault="1"
+                       showInWebsite="1" showInStore="0">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="store_views" translate="label" sortOrder="3" type="multiselect" showInDefault="1"
+                       showInStore="1" showInWebsite="1">
+                    <label>Enabled for store views</label>
+                    <source_model>Vendic\OfflinePayments\Model\Config\Source\StoreViews</source_model>
+                </field>
+            </group>
         </section>
     </system>
 </config>
