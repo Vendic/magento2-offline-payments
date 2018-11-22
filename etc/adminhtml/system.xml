@@ -37,7 +37,7 @@
                     <source_model>Vendic\OfflinePayments\Model\Config\Source\StoreViews</source_model>
                 </field>
             </group>
-            <group id="custom" translate="label" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="custompayment" translate="label" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Custom Payment Option</label>
                 <field id="title" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1"
                        showInStore="1">

@@ -8,7 +8,7 @@ define(
     'use strict';
     rendererList.push(
       {
-        type: 'custom_payment',
+        type: 'custompayment',
         component: 'Vendic_OfflinePayments/js/view/payment/method-renderer/generic-method'
       }
     );

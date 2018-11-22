@@ -12,5 +12,5 @@ use Vendic\OfflinePayments\Model\Method;
 
 class CustomPayment extends Method
 {
-    protected $_code = 'custom_payment';
+    protected $_code = 'custompayment';
 }
