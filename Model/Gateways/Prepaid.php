@@ -12,5 +12,6 @@ use Vendic\OfflinePayments\Model\Method;
 
 class Prepaid extends Method
 {
-    protected $_code = 'prepaid';
+    public $_code = 'prepaid';
+    public $_gatewayCode = 'prepaid';
 }

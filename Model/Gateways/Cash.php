@@ -12,5 +12,6 @@ use Vendic\OfflinePayments\Model\Method;
 
 class Cash extends Method
 {
-    protected $_code = 'cash';
+    public $_code = 'cash';
+    public $_gateWayCode = 'cash';
 }
