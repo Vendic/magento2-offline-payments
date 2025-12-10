@@ -2,7 +2,7 @@
   "name": "vendic/magento2-offlinepayments",
   "description": "Add three offline payment methods (Cash, Prepaid and one customizable payment method) to Magento 2. Enable/disable per store view",
   "require": {
-    "php": "~7.3.0|~7.4.0|~8.1.0|~8.2.0|~8.3.0",
+    "php": "~7.3.0|~7.4.0|~8.1.0|~8.2.0|~8.3.0|~8.4.0",
     "magento/framework": "103.0.*"
   },
   "type": "magento2-module",
